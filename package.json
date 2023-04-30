@@ -1,0 +1,13 @@
+{
+  "name": "Regex-Tutorial",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test-anchor": "yarn jest regex/1_anchor",
+    "test-range": "yarn jest regex/2_range",
+    "test-specialChars": "yarn jest regex/3_specialChars"
+  }
+}
